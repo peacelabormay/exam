@@ -110,6 +110,11 @@ li a {
     color: var(--primary-color-a);
 }
 
+header .demo-button {
+    position: relative;
+    bottom: 12px;
+}
+
 button  {
     width: 40px;
     height: 40px;

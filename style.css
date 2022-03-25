@@ -1,1 +1,132 @@
+:root {
+    --primary-color-a: white;
+    --primary-color-b: #40494d; /*текст*/
+    --primary-color-c: #283337; /*кнопка*/
+    --primary-color-d: #f3f7f4; /*фон*/
+}
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height:100%;
+    background-color: var(--primary-color-d);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: var(--primary-color-a);
+    width: 100%;
+    height: 15%;
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
+}
+
+nav ul {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav ul li { 
+    display: inline-block;
+}
+
+.greetings {
+    display: flex;
+    
+    align-items: center;
+    padding: 100px;
+}
+
+.img_girl {
+    height: 70%;
+    width: 70%;
+    min-height: 341px;
+    min-width: 330px;
+}
+
+.greetings_text {
+    width: 44%;
+    margin: 8%;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 108%;
+    font-weight: 400;
+    color: --primary-color-b;
+
+    margin-bottom: 28px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 31px;
+    color: --primary-color-b;
+
+    margin-bottom: 23px;
+}
+
+li a {
+    color: var(--primary-color-b);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.demo-button {
+    min-height: 56px;
+    background-color: var(--primary-color-c);
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50px;
+    padding: 12px 25px;
+    color: var(--primary-color-a);
+}
+
+button  {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.demo-button:hover {
+    background-color: rgb(203, 219, 216);
+    color: var(--primary-color-b);
+    box-shadow:  5px 5px rgb(26, 43, 37);
+}
+
+button:hover{
+    background-color: var(--primary-color-c);
+}
+
+li a:hover {
+    color: rgb(61, 155, 124);
+}
